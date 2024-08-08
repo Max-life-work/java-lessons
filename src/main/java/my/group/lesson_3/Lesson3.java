@@ -16,7 +16,7 @@ public class Lesson3 {
      * Также если числа равны - вывести надпись Числа равны!
      * @param scanner
      */
-    public static void method31(Scanner scanner) {
+    public static void task31(Scanner scanner) {
         System.out.print("input first value: ");
         long arg1 = scanner.nextLong();
         System.out.print("input second value: ");
@@ -48,7 +48,7 @@ public class Lesson3 {
      * </ul>
      * @param scanner
      */
-    public static void method32(Scanner scanner) {
+    public static void task32(Scanner scanner) {
         scanner.nextLine();
         System.out.print("input phrase: ");
         String phrase  = scanner.nextLine();
@@ -70,7 +70,7 @@ public class Lesson3 {
      * имя и отчество соответственно. Выведите в консоль ваше ФИО в одну строку.
      * @param scanner
      */
-    public static void method33(Scanner scanner) {
+    public static void task33(Scanner scanner) {
         System.out.print("input first name: ");
         String firstName  = scanner.nextLine();
         System.out.print("input second name: ");
